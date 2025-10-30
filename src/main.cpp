@@ -1,28 +1,26 @@
 #include <Arduino.h>
+#include "Led.h"
 
 #define RED_LED_PIN 16
 #define YELLOW_LED_PIN 17
 #define GREEN_LED_PIN 5
 
-// put function declarations here:
-int myFunction(int, int);
+Led redLed(RED_LED_PIN);
+Led yellowLed(YELLOW_LED_PIN);
+Led greenLed(GREEN_LED_PIN);
 
-void setup() {
-  pinMode(RED_LED_PIN, OUTPUT);
-  pinMode(YELLOW_LED_PIN, OUTPUT);
-  pinMode(GREEN_LED_PIN, OUTPUT);
-}
+void setup() {}
 
 void loop() {
-  digitalWrite(RED_LED_PIN, HIGH);
+  redLed.on();
   delay(6000);
-  digitalWrite(RED_LED_PIN, LOW);
+  redLed.off();
 
-  digitalWrite(YELLOW_LED_PIN, HIGH);
+  yellowLed.on();
   delay(2000);
-  digitalWrite(YELLOW_LED_PIN, LOW);
+  yellowLed.off();
 
-  digitalWrite(GREEN_LED_PIN, HIGH);
+  greenLed.on();
   delay(4000);
-  digitalWrite(GREEN_LED_PIN, LOW);
+  greenLed.off();
 }
