@@ -1,4 +1,5 @@
-#pragma once
+#ifndef LED_H
+#define LED_H
 
 class Led {
 public:
@@ -9,3 +10,4 @@ public:
 private:
   int pin_m;
 };
+#endif // LED_H
