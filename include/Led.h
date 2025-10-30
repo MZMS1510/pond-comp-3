@@ -2,9 +2,10 @@
 
 class Led {
 public:
-    Led(int pin);
-    void on();
-    void off();
+  Led(int pin);
+  void on();
+  void off();
+
 private:
-    int pin_m;
+  int pin_m;
 };
