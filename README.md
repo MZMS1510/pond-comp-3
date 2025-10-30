@@ -23,7 +23,7 @@ Este projeto implementa um semáforo utilizando a plataforma Arduino e um ESP32,
 
 ## Demonstração do Projeto
 
-![Demonstração do projeto](./assets/demo-certo.gif)
+[Demonstração do projeto](https://youtube.com/shorts/FId6HIV0Lj0?feature=share)
 
 ## Como Rodar
 
