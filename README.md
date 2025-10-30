@@ -140,3 +140,10 @@ void loop() {
   semaforo.run();
 }
 ```
+
+### Avaliações
+
+| Avaliador | Observações | Nota |
+| --- | --- | --- |
+| Davi Duarte | Trabalho muito bem executado, incluindo a lógica de detecção de obstáculos para maior segurança, realmente um trabalho excepcional. | 10 |
+| Rayssa Guedes | Sistema de semáforo funcional e bem estruturado, com uso adequado de classes e objetos. Inclui ainda o uso de ponteiros, que demonstra domínio do assunto. | 10 |
